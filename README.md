@@ -41,7 +41,7 @@ If you want to modify the code and compile it yourself, follow these steps. Note
 5. Install the required Python dependencies:
    `python -m pip install -r requirements.txt`
 6. Test the application from source (optional):
-   `python recudown.py`
+   `python RecuDown.py`
 7. Build the final executable using PyInstaller. Run this command in Windows CMD:
 ```
    `pyinstaller --onefile --noconsole ^`
