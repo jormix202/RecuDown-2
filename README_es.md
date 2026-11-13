@@ -1,7 +1,7 @@
 # RecuDown 2
 **Leer en:** [English](README.md) | [Español](README_es.md)
 
-**Plataformas:** Windows 10 / 11
+**Plataforma:** Windows 10 / 11
 
 | Vista 1 | Vista 2 | Vista 3 |
 | :---: | :---: | :---: |
