@@ -47,15 +47,15 @@ Si deseas modificar el código y compilarlo tú mismo, sigue estos pasos:
 `python RecuDown.py`
 7. Genera el ejecutable final utilizando PyInstaller. Ejecuta este comando en la línea de comandos de Windows (CMD):
 ```
-`pyinstaller --onefile --noconsole ^`
-`--add-binary "recu-windows-amd64.exe;." ^`
-`--add-binary "sound.wav;." ^`
-`--add-binary "tap.wav;." ^`
-`--add-data "icon.ico;." ^`
-`--icon=icon.ico ^`
-`--version-file=version_info.txt ^`
-`--hidden-import=websocket ^`
-`RecuDown.py`
+pyinstaller --onefile --noconsole ^
+--add-binary "recu-windows-amd64.exe;." ^
+--add-binary "sound.wav;." ^
+--add-binary "tap.wav;." ^
+--add-data "icon.ico;." ^
+--icon=icon.ico ^
+--version-file=version_info.txt ^
+--hidden-import=websocket ^
+RecuDown.py
 ```
 *Una vez finalizada la compilación, encontrarás tu archivo `.exe` final dentro de la carpeta `dist` recién creada.*
 ## Créditos
