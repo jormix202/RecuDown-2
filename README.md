@@ -1,4 +1,6 @@
 # RecuDown 2
+**Read this in:** [English](README.md) | [Español](README_es.md)
+
 | View 1 | View 2 | View 3 |
 | :---: | :---: | :---: |
 | ![Screenshot 1](images/screenshot1.png) | ![Screenshot 2](images/screenshot2.png) | ![Screenshot 3](images/screenshot3.png) |
