@@ -54,7 +54,7 @@ If you want to modify the code and compile it yourself, follow these steps:
    `--hidden-import=websocket ^`
    `recudown.py`
    ```
-
+*After the compilation finishes, you will find your final `.exe` file inside the newly created `dist` folder.*
 ## Credits
 
 - **Download Engine:** [@baconator696](https://github.com/baconator696)
