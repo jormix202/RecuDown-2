@@ -29,7 +29,7 @@ Because automated executable files (`.exe`) are restricted on GitHub, the pre-co
 
 ## Compiling from Source (Developers)
 
-If you want to modify the code and compile it yourself, follow these steps:
+If you want to modify the code and compile it yourself, follow these steps. Note: All source code and asset files are located inside the files folder in this repository.
 
 1. Install Python 3.10 or higher.
 - **Option A (Web):** Download it from [python.org](https://www.python.org/). **Important:** During installation, make sure to check the box that says **"Add Python to PATH"**.
