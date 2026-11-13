@@ -27,12 +27,12 @@ This project is an original user interface built from scratch. It uses the open-
 If you want to modify the code and compile it yourself, follow these steps:
 
 1. Install Python 3.10 or higher.
-   - **Option A (Web):** Download it from [python.org](https://www.python.org/). **Important:** During installation, make sure to check the box that says **"Add Python to PATH"**.
-   - **Option B (CMD):** If you have `winget` installed, open CMD and run: `winget install Python.Python.3.10`
+- **Option A (Web):** Download it from [python.org](https://www.python.org/). **Important:** During installation, make sure to check the box that says **"Add Python to PATH"**.
+- **Option B (CMD):** If you have `winget` installed, open CMD and run: `winget install Python.Python.3.10`
 2. Download or clone this repository (e.g., by downloading the `.zip` file). Extract the downloaded file and open the **`files`** folder.
 3. **Get the download engine:** Download `recu-windows-amd64.exe` from [@baconator696's repository](https://github.com/baconator696/Recu-Download) and place it inside the **`files`** folder.
 4. Open a Command Prompt (CMD) **inside the `files` folder**.
-   - *Easy way:* Open the `files` folder in File Explorer, click on the address bar at the top, type `cmd`, and press Enter.
+- *Easy way:* Open the `files` folder in File Explorer, click on the address bar at the top, type `cmd`, and press Enter.
 5. **In the CMD window**, install the required Python dependencies by running:
    `python -m pip install -r requirements.txt`
 6. *(Optional)* **In the same CMD window**, test the application from source by running:
