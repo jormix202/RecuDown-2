@@ -1,0 +1,34 @@
+# UTF-8
+#
+# For more details about fixed file info 'ffi' see:
+# http://msdn.microsoft.com/en-us/library/ms646997.aspx
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(2, 5, 0, 0),
+    prodvers=(2, 5, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+    ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        u'040904b0',
+        [StringStruct(u'CompanyName',      u'Jorminyo'),
+        StringStruct(u'FileDescription',  u'RecuDown 2 v2.5'),
+        StringStruct(u'FileVersion',      u'2.5'),
+        StringStruct(u'InternalName',     u'RecuDown'),
+        StringStruct(u'LegalCopyright',   u'Jorminyo © 2026'),
+        StringStruct(u'OriginalFilename', u'RecuDown.exe'),
+        StringStruct(u'ProductName',      u'RecuDown 2'),
+        StringStruct(u'ProductVersion',   u'2.5'),
+        StringStruct(u'Comments',         u'https://www.reddit.com/user/Jorminyo/'),
+        StringStruct(u'WebSite',          u'https://www.reddit.com/user/Jorminyo/')])
+      ]),
+    VarFileInfo([VarStruct(u'Translation', [0x409, 1200])])
+  ]
+)
