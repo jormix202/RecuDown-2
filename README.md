@@ -1,6 +1,7 @@
 # RecuDown 2
 
 **Read this in:** [English](README.md) | [Español](README_es.md)
+
 **Platform:** Windows 10 / 11
 
 | View 1 | View 2 | View 3 |
