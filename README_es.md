@@ -43,7 +43,8 @@ Si deseas modificar el código y compilarlo tú mismo, sigue estos pasos:
 2. Descarga o clona este repositorio (por ejemplo, descargando el archivo `.zip`). Extrae el archivo descargado y abre la carpeta **`files`**.
 3. **Obtén el motor de descarga:** Descarga `recu-windows-amd64.exe` desde el repositorio de [@baconator696](https://github.com/baconator696/Recu-Download/releases/tag/v1.11.8) y colócalo dentro de la carpeta **`files`**
 4. Abre el símbolo del sistema (CMD) **dentro de la carpeta `files`**.
-- *Método sencillo:* Abre la carpeta `files` en el Explorador de archivos, haz clic en la barra de direcciones en la parte superior, escribe `cmd` y presiona Enter. 5. **En la ventana de CMD**, instala las dependencias de Python necesarias ejecutando:
+- *Método sencillo:* Abre la carpeta `files` en el Explorador de archivos, haz clic en la barra de direcciones en la parte superior, escribe `cmd` y presiona Enter. 
+5. **En la ventana de CMD**, instala las dependencias de Python necesarias ejecutando:
 `python -m pip install -r requirements.txt`
 6. *(Opcional)* **En la misma ventana de CMD**, prueba la aplicación desde el código fuente ejecutando:
 `python RecuDown.py`
