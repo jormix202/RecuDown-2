@@ -1,7 +1,7 @@
 # RecuDown 2
 | View 1 | View 2 | View 3 |
 | :---: | :---: | :---: |
-| ![Screenshot 1](screenshot1.png) | ![Screenshot 2](screenshot2.png) | ![Screenshot 3](screenshot3.png) |
+| ![Screenshot 1]([screenshot1.png](https://images/screenshot1.png)) | ![Screenshot 2]([screenshot2.png](https://images/screenshot2.png)) | ![Screenshot 3]([screenshot3.png](https://images/screenshot3.png)) |
 
 This project is an original user interface built from scratch. It uses the open-source `recu-windows-amd64.exe` engine created by [@baconator696](https://github.com/baconator696) to handle the background downloads.
 
