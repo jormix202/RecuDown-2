@@ -18,6 +18,14 @@ This project is an original user interface built from scratch. It uses the open-
 - **Automatic Backups:** Saves a history of your last 10 download configurations in a `backup.txt` file, so you never lose your progress.
 - **Customizable UI:** Frameless window with an "Always on Top" option, a URL quantity selector, and confirmation sounds for clicks and completed downloads.
 
+## Requirements & Browser Compatibility
+
+- **Account:** You must have a valid, active account on the target site to use this application.
+- **Browser Profile:** The app creates and configures a specific browser profile automatically. Ensure you are using this profile when logging in.
+- **Compatible Browsers:** Chrome, Edge, Brave, Opera, Opera GX, Slimjet, and Vivaldi (Chromium-based).
+- **Incompatible Browsers:** Firefox and Safari (these will not work with the CDP integration).
+- **How to set your default browser:** Search for "Default apps" in your Windows settings. Under "Web browser", select one of the compatible browsers listed above.
+
 ## How to Use (Windows)
 
 1. Go to the Releases section on the right and download RecuDown.2.exe.
