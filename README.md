@@ -38,7 +38,7 @@ If you want to modify the code and compile it yourself, follow these steps:
 
 1. Install Python 3.10 or higher.
 - **Option A (Web):** Download it from [python.org](https://www.python.org/). **Important:** During installation, make sure to check the box that says **"Add Python to PATH"**.
-- **Option B (CMD):** If you have `winget` installed, open CMD and run: `winget install Python.Python.3.10`
+- **Option B (CMD):** Open CMD **as Administrator** (Right-click -> Run as administrator) and run: `winget install Python.Python.3.10`
 2. Download or clone this repository (e.g., by downloading the `.zip` file). Extract the downloaded file and open the **`files`** folder.
 3. **Get the download engine:** Download `recu-windows-amd64.exe` from [@baconator696's repository](https://github.com/baconator696/Recu-Download) and place it inside the **`files`** folder.
 4. Open a Command Prompt (CMD) **inside the `files` folder**.
