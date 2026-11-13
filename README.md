@@ -47,7 +47,7 @@ If you want to modify the code and compile it yourself, follow these steps. Note
    `--icon=icon.ico ^`
    `--version-file=version_info.txt ^`
    `--hidden-import=websocket ^`
-   `recudown.py`
+   `RecuDown.py`
    ```
 *After the compilation finishes, you will find your final `.exe` file inside the newly created `dist` folder.*
 ## Credits
