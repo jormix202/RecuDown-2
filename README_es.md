@@ -17,6 +17,14 @@ Este proyecto consiste en una interfaz de usuario original desarrollada desde ce
 - **Opciones de renombrado por fecha:** Organiza tus archivos automáticamente utilizando el formato Año-Mes-Día (AAAA-MM-DD), Día-Mes-Año (DD-MM-AAAA) o conservando el nombre original del vídeo.
 - **Copias de seguridad automáticas:** Guarda un historial de tus últimas 10 configuraciones de descarga en un archivo `backup.txt`, para que nunca pierdas tu progreso. - **Interfaz personalizable:** Ventana sin bordes con opción de «siempre visible» (Always on Top), selector de cantidad de URL y sonidos de confirmación para clics y descargas completadas.
 
+## Requisitos y compatibilidad de navegadores
+
+- **Cuenta:** Debes tener una cuenta válida y activa en el sitio de destino para poder usar esta aplicación.
+- **Perfil del navegador:** La aplicación crea y configura un perfil de navegador específico de forma automática. Asegúrate de estar usando este perfil cuando inicies sesión.
+- **Navegadores compatibles:** Chrome, Edge, Brave, Opera, Opera GX, Slimjet y Vivaldi (basados en Chromium).
+- **Navegadores incompatibles:** Firefox y Safari (estos no funcionarán con la integración del protocolo CDP).
+- **Cómo configurar tu navegador predeterminado:** Busca "Aplicaciones predeterminadas" en la configuración de Windows. En la sección "Navegador web", selecciona uno de los navegadores compatibles que se mencionan arriba.
+
 ## Cómo usar (Windows)
 
 1. Ve a la sección «Releases» (lanzamientos) a la derecha y descarga `RecuDown.2.exe`.
