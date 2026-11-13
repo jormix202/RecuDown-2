@@ -20,7 +20,7 @@ This project is an original user interface built from scratch. It uses the open-
 
 ## Requirements & Browser Compatibility
 
-- **Account:** You must have a valid, active account on the target site to use this application.
+- **Account:** You must have a valid and active trial account on the target site to use this application.
 - **Browser Profile:** The app creates and configures a specific browser profile automatically. Ensure you are using this profile when logging in.
 - **Compatible Browsers:** Chrome, Edge, Brave, Opera, Opera GX, Slimjet, and Vivaldi (Chromium-based).
 - **Incompatible Browsers:** Firefox and Safari (these will not work with the CDP integration).
