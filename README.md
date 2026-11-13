@@ -17,18 +17,20 @@ This project is an original user interface built from scratch. It uses the open-
 
 ## How to Use (Windows)
 
-Because automated executable files (`.exe`) are restricted on GitHub, the pre-compiled version is hosted as a password-protected archive in the Releases section.
+Because automated executable files (`.exe`) are restricted on GitHub, the pre-compiled version is hosted externally.
 
-1. Go to the **Releases** section on the right and download `RecuDown2.rar` (or `.zip`).
+1. Download the `App.rar` from this secure link: **[PON_TU_ENLACE_DE_PROTON_DRIVE]**
 2. Extract the archive using the password: **`1234`**
-3. Run `RecuDown2.exe`. You don't need to install Python or any additional libraries.
+3. Run `App.exe`. You don't need to install Python or any additional libraries.
 4. *(Optional)* If you have FFmpeg installed, the app will automatically convert the videos for you.
 
 ## Compiling from Source (Developers)
 
 If you want to modify the code and compile it yourself, follow these steps:
 
-1. Install Python 3.10 or higher. **Important:** During installation, make sure to check the box that says **"Add Python to PATH"**.
+1. Install Python 3.10 or higher.
+   - **Option A (Web):** Download it from [python.org](https://www.python.org/). **Important:** During installation, make sure to check the box that says **"Add Python to PATH"**.
+   - **Option B (CMD):** If you have `winget` installed, open CMD and run: `winget install Python.Python.3.10`
 2. Download or clone this repository and extract the files into a folder on your PC.
 3. Open a Command Prompt (CMD) **inside that folder**.
    - *Easy way:* Open the folder in File Explorer, click on the address bar at the top, type `cmd`, and press Enter.
@@ -48,7 +50,7 @@ If you want to modify the code and compile it yourself, follow these steps:
    `--version-file=version_info.txt ^`
    `--hidden-import=websocket ^`
    `recudown.py`
-```
+   ```
 
 ## Credits
 
