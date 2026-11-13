@@ -37,7 +37,7 @@ If you want to modify the code and compile it yourself, follow these steps:
    `python -m pip install -r requirements.txt`
 6. Test the application from source (optional):
    `python recudown.py`
-7. **For developers only:** Build the final executable using PyInstaller. Run this command in Windows CMD:
+7. Build the final executable using PyInstaller. Run this command in Windows CMD:
 ```
    `pyinstaller --onefile --noconsole ^`
    `--add-binary "recu-windows-amd64.exe;." ^`
