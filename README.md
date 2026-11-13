@@ -3,8 +3,6 @@
 | :---: | :---: | :---: |
 | ![Screenshot 1](screenshot1.png) | ![Screenshot 2](screenshot2.png) | ![Screenshot 3](screenshot3.png) |
 
-A modern, standalone PySide6 GUI for downloading videos from recu.me.
-
 This project is an original user interface built from scratch. It uses the open-source `recu-windows-amd64.exe` engine created by [@baconator696](https://github.com/baconator696) to handle the background downloads.
 
 ## Main Features
