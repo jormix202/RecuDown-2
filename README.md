@@ -40,7 +40,7 @@ If you want to modify the code and compile it yourself, follow these steps:
 - **Option A (CMD - Easiest and fastest):** Open CMD **as Administrator** (Right-click -> Run as administrator) and run: `winget install Python.Python.3.10`
 - **Option B (Web):** Download it from [python.org](https://www.python.org/). **Important:** During installation, make sure to check the box that says **"Add Python to PATH"**.
 2. Download or clone this repository (e.g., by downloading the `.zip` file). Extract the downloaded file and open the **`files`** folder.
-3. **Get the download engine:** Download `recu-windows-amd64.exe` from [@baconator696](https://github.com/baconator696/Recu-Download/releases/tag/v1.11.8) and place it inside the **`files`** folder.
+3. **Get the download engine:** Download `recu-windows-amd64.exe` from the repository of [@baconator696](https://github.com/baconator696/Recu-Download/releases/tag/v1.11.8) and place it inside the **`files`** folder.
 4. Open a Command Prompt (CMD) **inside the `files` folder**.
 - *Easy way:* Open the `files` folder in File Explorer, click on the address bar at the top, type `cmd`, and press Enter.
 5. **In the CMD window**, install the required Python dependencies by running:
