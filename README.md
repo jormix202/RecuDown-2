@@ -1,5 +1,5 @@
 # RecuDown 2 (Windows)
-> **Platform:** Windows 10 / 11
+**Platform:** Windows 10 / 11
 **Read this in:** [English](README.md) | [Español](README_es.md)
 
 | View 1 | View 2 | View 3 |
