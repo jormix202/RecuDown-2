@@ -18,12 +18,9 @@ This project is an original user interface built from scratch. It uses the open-
 
 ## How to Use (Windows)
 
-Because automated executable files (`.exe`) are restricted on GitHub, the pre-compiled version is hosted externally.
-
-1. Download the `App.rar` from this secure link: **[PON_TU_ENLACE_DE_PROTON_DRIVE]**
-2. Extract the archive using the password: **`1234`**
-3. Run `App.exe`. You don't need to install Python or any additional libraries.
-4. *(Optional)* If you have FFmpeg installed, the app will automatically convert the videos for you.
+1. Go to the Releases section on the right and download RecuDown.2.exe.
+2. Run the file. You don't need to install Python or any additional libraries.
+3. (Optional) If you have FFmpeg installed, the app will automatically convert the videos for you.
 
 ## Compiling from Source (Developers)
 
