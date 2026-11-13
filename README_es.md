@@ -19,7 +19,7 @@ Este proyecto consiste en una interfaz de usuario original desarrollada desde ce
 
 ## Requisitos y compatibilidad de navegadores
 
-- **Cuenta:** Debes tener una cuenta válida y activa en el sitio de destino para poder usar esta aplicación.
+- **Cuenta:** Debes tener una cuenta de prueba válida y activa en el sitio de destino para poder usar esta aplicación.
 - **Perfil del navegador:** La aplicación crea y configura un perfil de navegador específico de forma automática. Asegúrate de estar usando este perfil cuando inicies sesión.
 - **Navegadores compatibles:** Chrome, Edge, Brave, Opera, Opera GX, Slimjet y Vivaldi (basados en Chromium).
 - **Navegadores incompatibles:** Firefox y Safari (estos no funcionarán con la integración del protocolo CDP).
