@@ -36,8 +36,8 @@ Este proyecto consiste en una interfaz de usuario original desarrollada desde ce
 Si deseas modificar el código y compilarlo tú mismo, sigue estos pasos:
 
 1. Instala Python 3.10 o superior.
-- **Opción A (Web):** Descárgalo desde [python.org](https://www.python.org/). **Importante:** Durante la instalación, asegúrate de marcar la casilla que dice **«Add Python to PATH»**.
-- **Opción B (CMD):** Abre el CMD **como Administrador** (Clic derecho -> Ejecutar como administrador) y ejecuta: `winget install Python.Python.3.10`
+- **Opción A (CMD - Más sencillo y rápido):** Abre el CMD **como Administrador** (Clic derecho -> Ejecutar como administrador) y ejecuta: `winget install Python.Python.3.10`
+- **Opción B (Web):** Descárgalo desde [python.org](https://www.python.org/). **Importante:** Durante la instalación, asegúrate de marcar la casilla que dice **«Add Python to PATH»**.
 2. Descarga o clona este repositorio (por ejemplo, descargando el archivo `.zip`). Extrae el archivo descargado y abre la carpeta **`files`**.
 3. **Obtén el motor de descarga:** Descarga `recu-windows-amd64.exe` desde el repositorio de [@baconator696](https://github.com/baconator696/Recu-Download) y colócalo dentro de la carpeta **`files`**.
 4. Abre el símbolo del sistema (CMD) **dentro de la carpeta `files`**.
