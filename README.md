@@ -1,4 +1,4 @@
-# RecuDown 2
+# RecuDown 2 (Windows)
 **Read this in:** [English](README.md) | [Español](README_es.md)
 
 | View 1 | View 2 | View 3 |
