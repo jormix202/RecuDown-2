@@ -33,7 +33,7 @@ If you want to modify the code and compile it yourself, follow these steps:
 - **Option B (CMD):** If you have `winget` installed, open CMD and run: `winget install Python.Python.3.10`
 2. Download or clone this repository and extract the files into a folder on your PC.
 3. Open a Command Prompt (CMD) **inside that folder**.
-   - *Easy way:* Open the folder in File Explorer, click on the address bar at the top, type `cmd`, and press Enter.
+- *Easy way:* Open the folder in File Explorer, click on the address bar at the top, type `cmd`, and press Enter.
 4. **Get the download engine:** Download `recu-windows-amd64.exe` from [@baconator696's repository](https://github.com/baconator696/Recu-Download) and place it in the same folder as your Python files.
 5. Install the required Python dependencies:
    `python -m pip install -r requirements.txt`
