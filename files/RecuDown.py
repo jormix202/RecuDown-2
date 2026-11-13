@@ -1459,16 +1459,19 @@ class FixedSpinBox(QSpinBox):
         self.setButtonSymbols(QAbstractSpinBox.NoButtons)
         self.setMouseTracking(True)
         self._hover = self._pressed = None
+        
+        # Hacemos el texto nativo transparente para que no interfiera
         self.setStyleSheet(
-            "QSpinBox{color:#d0d0d0;background:#3c4048;border:1px solid #50575d;"
-            f"border-radius:{self.RADIUS}px;padding:3px {self.PAD_RIGHT}px 3px 0px;"
-            "selection-background-color:transparent;selection-color:#d0d0d0;}"
+            "QSpinBox{color:transparent;background:#3c4048;border:1px solid #50575d;"
+            f"border-radius:{self.RADIUS}px;padding:0px;"
+            "selection-background-color:transparent;selection-color:transparent;}"
             "QSpinBox::up-button,QSpinBox::down-button{width:0;height:0;border:none;}"
             "QSpinBox::up-arrow,QSpinBox::down-arrow{width:0;height:0;image:none;}")
+            
         le = self.lineEdit()
         le.setReadOnly(True)
         le.setAlignment(Qt.AlignCenter)
-        le.setStyleSheet("QLineEdit{padding:0;margin:0;border:none;background:transparent;}")
+        le.setStyleSheet("QLineEdit{padding:0;margin:0;border:none;background:transparent;color:transparent;}") # Texto transparente aquí también
         le.setMouseTracking(True)
         le.installEventFilter(self)
         le.deselect()
@@ -1537,13 +1540,31 @@ class FixedSpinBox(QSpinBox):
         e.accept()
 
     def paintEvent(self, e):
+        # 1. Dejamos que Qt dibuje el fondo y los botones
         super().paintEvent(e)
+        
+        # 2. Dibujamos el número manualmente en el centro exacto del lado izquierdo
+        p = QPainter(self)
+        p.setRenderHint(QPainter.Antialiasing)
+        
+        # Calculamos el área donde debe ir el número (el espacio a la izquierda de los botones)
+        text_rect = QRect(1, 0, self.width() - self.BTN_W - 1, self.height())
+        
+        # Dibujamos el número
+        p.setPen(QColor("#d0d0d0")) # Color del texto
+        p.setFont(self.font())
+        p.drawText(text_rect, Qt.AlignCenter, str(self.value()))
+        p.end()
+
+        # 3. Dibujamos los botones de las flechas encima
         r = self._rect()
         if r.width() <= 0 or r.height() <= 0:
             return
+            
         half = r.height() / 2.0
         top = QRectF(r.x(), r.y(), self.BTN_W, half + 0.5)
         bot = QRectF(r.x(), r.y() + half + 0.5, self.BTN_W, half - 0.5)
+        
         p = QPainter(self)
         p.setRenderHint(QPainter.Antialiasing)
         clip = QPainterPath()
