@@ -66,7 +66,7 @@ After the compilation finishes, you will find your final `.exe` file inside the 
 ## Credits
 
 - **Download Engine:** [@baconator696](https://github.com/baconator696)
-- **GUI & Code:** jorminyo2022
+- **GUI & Code:** jorminyo2020
 
 ## License
 
