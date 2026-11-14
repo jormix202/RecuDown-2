@@ -60,7 +60,7 @@ pyinstaller --onefile --noconsole ^
 --hidden-import=websocket ^
 RecuDown.py
 ```
-*Una vez finalizada la compilación, encontrarás tu archivo `.exe` final dentro de la carpeta `dist` recién creada.*
+Una vez finalizada la compilación, encontrarás tu archivo `.exe` final dentro de la carpeta `dist` recién creada.
 ## Créditos
 
 - **Motor de descarga:** [@baconator696](https://github.com/baconator696)
