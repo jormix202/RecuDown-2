@@ -64,7 +64,7 @@ Una vez finalizada la compilación, encontrarás tu archivo `.exe` final dentro 
 ## Créditos
 
 - **Motor de descarga:** [@baconator696](https://github.com/baconator696)
-- **Interfaz gráfica (GUI) y código:** jorminyo2022
+- **Interfaz gráfica (GUI) y código:** jorminyo2020
 
 ## Licencia
 
